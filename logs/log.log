@@ -1,0 +1,111 @@
+009 (69968.000.000) 2025-01-14 14:34:04 Job was aborted.
+	via condor_rm (by user hepe00001)
+...
+000 (69973.000.000) 2025-01-14 14:44:26 Job submitted from host: <134.96.227.100:9618?addrs=134.96.227.100-9618&alias=conduit.hpc.uni-saarland.de&noUDP&sock=schedd_1996766_f879>
+...
+040 (69973.000.000) 2025-01-14 14:44:26 Started transferring input files
+	Transferring to host: <134.96.59.7:9618?addrs=134.96.59.7-9618&alias=freyr.hpc.uni-saarland.de&noUDP&sock=slot1_4_5117_23a9_974>
+...
+040 (69973.000.000) 2025-01-14 14:44:26 Finished transferring input files
+...
+001 (69973.000.000) 2025-01-14 14:44:27 Job executing on host: <134.96.59.7:9618?addrs=134.96.59.7-9618&alias=freyr.hpc.uni-saarland.de&noUDP&sock=startd_3959_1f88>
+	SlotName: slot1_4@freyr.hpc.uni-saarland.de
+	AvailableGPUs = { GPUs_GPU_4793f3fd }
+	CondorScratchDir = "/raid/condor/lib/condor/execute/dir_3953874"
+	Cpus = 4
+	Disk = 12130
+	GPUs = 1
+	GPUs_GPU_4793f3fd = [ Id = "GPU-4793f3fd"; Capability = 8.0; DeviceName = "NVIDIA A100-PCIE-40GB"; DeviceUuid = "4793f3fd-9ded-aea5-a250-f922554a9d84"; ECCEnabled = true; DriverVersion = 12.4; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 40326; MaxSupportedVersion = 12040 ]
+	Memory = 32768
+...
+006 (69973.000.000) 2025-01-14 14:44:32 Image size of job updated: 51
+	51  -  MemoryUsage of job (MB)
+	52672  -  ResidentSetSize of job (KB)
+...
+040 (69973.000.000) 2025-01-14 14:44:32 Started transferring output files
+...
+040 (69973.000.000) 2025-01-14 14:44:32 Finished transferring output files
+...
+005 (69973.000.000) 2025-01-14 14:44:33 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	5143  -  Run Bytes Sent By Job
+	1312  -  Run Bytes Received By Job
+	5143  -  Total Bytes Sent By Job
+	1312  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1         4 
+	   Disk (KB)            :       25        2     12130 
+	   GPUs                 :                 1         1 "GPU-4793f3fd"
+	   Memory (MB)          :       51    32768     32768 
+	   TimeExecute (s)      :        5                    
+	   TimeSlotBusy (s)     :        7                    
+
+	Job terminated of its own accord at 2025-01-14T13:44:32Z with exit-code 1.
+...
+000 (70131.000.000) 2025-01-16 10:28:59 Job submitted from host: <134.96.227.100:9618?addrs=134.96.227.100-9618&alias=conduit.hpc.uni-saarland.de&noUDP&sock=schedd_1996766_f879>
+...
+040 (70131.000.000) 2025-01-16 10:29:08 Started transferring input files
+	Transferring to host: <134.96.59.26:9618?addrs=134.96.59.26-9618&alias=gefjon.hpc.uni-saarland.de&noUDP&sock=slot1_6_1498156_2e73_1211>
+...
+040 (70131.000.000) 2025-01-16 10:29:08 Finished transferring input files
+...
+001 (70131.000.000) 2025-01-16 10:29:09 Job executing on host: <134.96.59.26:9618?addrs=134.96.59.26-9618&alias=gefjon.hpc.uni-saarland.de&noUDP&sock=startd_4127_5b71>
+	SlotName: slot1_6@gefjon.hpc.uni-saarland.de
+	AvailableGPUs = { GPUs_GPU_c62fee8e }
+	CondorScratchDir = "/raid/condor/lib/condor/execute/dir_31073"
+	Cpus = 4
+	Disk = 12134
+	GPUs = 1
+	GPUs_GPU_c62fee8e = [ Id = "GPU-c62fee8e"; Capability = 8.0; DeviceName = "NVIDIA A100-PCIE-40GB"; DeviceUuid = "c62fee8e-b343-dd3c-458e-aaf86e889b78"; ECCEnabled = true; DriverVersion = 12.4; DevicePciBusId = "0000:61:00.0"; GlobalMemoryMb = 40326; MaxSupportedVersion = 12040 ]
+	Memory = 32768
+...
+006 (70131.000.000) 2025-01-16 10:32:21 Image size of job updated: 112
+	112  -  MemoryUsage of job (MB)
+	115200  -  ResidentSetSize of job (KB)
+...
+040 (70131.000.000) 2025-01-16 10:32:21 Started transferring output files
+...
+040 (70131.000.000) 2025-01-16 10:32:21 Finished transferring output files
+...
+005 (70131.000.000) 2025-01-16 10:32:21 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	7607  -  Run Bytes Sent By Job
+	1312  -  Run Bytes Received By Job
+	7607  -  Total Bytes Sent By Job
+	1312  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     0.03        1         4 
+	   Disk (KB)            :    28           2     12134 
+	   GPUs                 :     0           1         1 "GPU-c62fee8e"
+	   GpusMemory (MB)      :   734                       
+	   Memory (MB)          :   112       32768     32768 
+	   TimeExecute (s)      :   192                       
+	   TimeSlotBusy (s)     :   194                       
+
+	Job terminated of its own accord at 2025-01-16T09:32:21Z with exit-code 1.
+...
+000 (70135.000.000) 2025-01-16 10:34:11 Job submitted from host: <134.96.227.100:9618?addrs=134.96.227.100-9618&alias=conduit.hpc.uni-saarland.de&noUDP&sock=schedd_1996766_f879>
+...
+040 (70135.000.000) 2025-01-16 10:34:12 Started transferring input files
+	Transferring to host: <134.96.59.9:9618?addrs=134.96.59.9-9618&alias=gerda.hpc.uni-saarland.de&noUDP&sock=slot1_4_4304_4ea8_386>
+...
+040 (70135.000.000) 2025-01-16 10:34:12 Finished transferring input files
+...
+001 (70135.000.000) 2025-01-16 10:34:13 Job executing on host: <134.96.59.9:9618?addrs=134.96.59.9-9618&alias=gerda.hpc.uni-saarland.de&noUDP&sock=startd_3978_27d5>
+	SlotName: slot1_4@gerda.hpc.uni-saarland.de
+	AvailableGPUs = { GPUs_GPU_202b2b0a }
+	CondorScratchDir = "/raid/condor/lib/condor/execute/dir_399709"
+	Cpus = 4
+	Disk = 11564
+	GPUs = 1
+	GPUs_GPU_202b2b0a = [ Id = "GPU-202b2b0a"; Capability = 8.0; DeviceName = "NVIDIA A100-PCIE-40GB"; DeviceUuid = "202b2b0a-6e25-9ae0-da31-dfd3d39e019b"; ECCEnabled = true; DriverVersion = 12.4; DevicePciBusId = "0000:A1:00.0"; GlobalMemoryMb = 40326; MaxSupportedVersion = 12040 ]
+	Memory = 32768
+...

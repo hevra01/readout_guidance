@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/hepe00001/readout_guidance/demo_drag.py", line 11, in <module>
+    import mediapy
+ModuleNotFoundError: No module named 'mediapy'
+
+ERROR conda.cli.main_run:execute(125): `conda run bash -c 
+  nvidia-smi
+  echo $CUDA_VISIBLE_DEVICES
+  echo $HOSTNAME
+  which python
+  python -m pip list
+  python /home/hepe00001/readout_guidance/demo_drag.py      
+` failed. (See above for error)

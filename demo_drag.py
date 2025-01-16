@@ -6,9 +6,6 @@
 # In[1]:
 
 
-get_ipython().run_line_magic('load_ext', 'autoreload')
-get_ipython().run_line_magic('autoreload', '2')
-
 import gc
 import json
 import mediapy
@@ -142,29 +139,6 @@ tracks_exist = os.path.exists(tracks_file)
 if tracks_exist:
     tracks = np.load(tracks_file)
     print(f"Loaded {tracks} tracks")
-else:
-  get_ipython().run_line_magic('matplotlib', 'ipympl')
-  user_points = []
-
-  fig, ax = plt.subplots(1, 1)
-  ax.imshow(first_frame, alpha=0.3)
-  ax.axis("off")
-  plt.draw()
-
-  def mouse_event(event):
-    y, x = event.ydata, event.xdata
-    radius = 10
-    color = "gray"
-    circ = plt.Circle((x, y), radius, facecolor=color, color=color)
-    ax.add_patch(circ)
-    if len(user_points) % 2 == 1:
-      arrow = FancyArrowPatch(user_points[-1], (x, y),
-                          arrowstyle='->', color='red', mutation_scale=20, linewidth=2)
-      ax.add_patch(arrow)
-    user_points.append((x, y))
-
-  fig.canvas.mpl_connect('button_press_event', mouse_event)
-
 
 # In[8]:
 
@@ -270,7 +244,9 @@ print(prompt_sep)
 print(prompt)
 print(prompt_sep)
 print()
-get_ipython().run_line_magic('matplotlib', 'inline')
+import matplotlib
+matplotlib.use('Agg')  # For non-interactive environments
+
 plt.clf()
 frames = np.stack([predicted_frames[0], tracks_frame] + predicted_frames)
 video = mediapy.resize_video(frames, viz_dim)
