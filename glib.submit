@@ -3,11 +3,9 @@ docker_image = pytorch/pytorch:2.1.0-cuda12.1-cudnn8-devel
 executable = install_glib.sh
 environment = PROJECT_ROOT=$ENV(PWD)
 initialdir  = $ENV(PWD)
-
 output = logs/install_glib.out
 error = logs/install_glib.err
 log = logs/install_glib.log
-
 should_transfer_files = YES
 when_to_transfer_output = ON_EXIT
 request_gpus = 1
@@ -16,3 +14,4 @@ request_memory = 16G
 getenv                  = HOME
 +WantGPUHomeMounted     = true
 queue
+

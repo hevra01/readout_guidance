@@ -1,5 +1,6 @@
 #!/bin/bash
 
+<<<<<<< HEAD
 
 # Activate the Conda environment
 CONDA_ROOT=$HOME/miniconda3
