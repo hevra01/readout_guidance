@@ -1,7 +1,6 @@
 universe = docker
 docker_image = pytorch/pytorch:2.1.0-cuda12.1-cudnn8-devel
-executable = run_task.sh
-arguments = /home/hepe00001/readout_guidance/demo_drag.py
+executable = setup.sh
 environment = PROJECT_ROOT=$ENV(PWD)
 initialdir  = $ENV(PWD)
 output = logs/output.out

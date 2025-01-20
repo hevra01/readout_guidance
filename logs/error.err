@@ -1,13 +1,10 @@
-Traceback (most recent call last):
-  File "/home/hepe00001/readout_guidance/demo_drag.py", line 11, in <module>
-    import mediapy
-ModuleNotFoundError: No module named 'mediapy'
-
-ERROR conda.cli.main_run:execute(125): `conda run bash -c 
-  nvidia-smi
-  echo $CUDA_VISIBLE_DEVICES
-  echo $HOSTNAME
-  which python
-  python -m pip list
-  python /home/hepe00001/readout_guidance/demo_drag.py      
-` failed. (See above for error)
+/raid/condor/lib/condor/execute/dir_3656451/download_weights.sh: line 35: wget: command not found
+/raid/condor/lib/condor/execute/dir_3656451/download_weights.sh: line 35: wget: command not found
+/raid/condor/lib/condor/execute/dir_3656451/download_weights.sh: line 35: wget: command not found
+/raid/condor/lib/condor/execute/dir_3656451/download_weights.sh: line 35: wget: command not found
+/raid/condor/lib/condor/execute/dir_3656451/download_weights.sh: line 35: wget: command not found
+/raid/condor/lib/condor/execute/dir_3656451/download_weights.sh: line 35: wget: command not found
+/raid/condor/lib/condor/execute/dir_3656451/download_weights.sh: line 35: wget: command not found
+/raid/condor/lib/condor/execute/dir_3656451/download_weights.sh: line 35: wget: command not found
+/raid/condor/lib/condor/execute/dir_3656451/download_weights.sh: line 35: wget: command not found
+/raid/condor/lib/condor/execute/dir_3656451/download_weights.sh: line 35: wget: command not found

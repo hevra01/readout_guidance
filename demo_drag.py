@@ -8,6 +8,7 @@
 
 import gc
 import json
+print("hevv test before mediapy")
 import mediapy
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyArrowPatch
@@ -20,6 +21,7 @@ import torch
 from readout_guidance import rg_helpers
 from script_drag import open_points, create_frames, viz_tracks, run_ddim_inversion
 
+print("after importing libraries")
 
 # **Load the Stable Diffusion Pipeline and Readout Heads**
 # 
@@ -45,7 +47,8 @@ height = width = latent_height * pipeline.vae_scale_factor
 image_dim = (width, height)
 latent_dim = (latent_height, latent_width)
 
-# Create edit config and load aggregation network
+print("after load pipeline")
+#Create edit config and load aggregation network
 num_frames = config.get("num_frames", 2)
 edits = rg_helpers.get_edits(config, device, dtype)
 

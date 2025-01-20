@@ -1,16 +1,12 @@
 #!/bin/bash
 
-#export HOME="/home/hepe00001"
-#export PATH="/home/hepe00001/miniconda3/bin:$PATH"
 
-# Define paths
+# Define paths, $HOME is already know bc in submit.sub, we have getenv = HOME
 CONDA_ROOT=$HOME/miniconda3
 CONDA=${CONDA_ROOT}/bin/conda
-#CONDA=/home/hepe00001/miniconda3/bin/conda
-
 
 # Specify the known environment name
-ENV_NAME="readout"
+ENV_NAME="readout_new"
 
 # Check if PROJECT_ROOT is set
 if [[ -z "${PROJECT_ROOT}" ]]; then
@@ -24,8 +20,6 @@ echo "CONDA path is set to: ${CONDA}"
 
 echo "Attempting to run conda from: ${CONDA}"
 ${CONDA} --version
-echo "hevv"
-echo "Current PATH: $PATH"
 
 
 # Check if conda is installed
@@ -41,7 +35,6 @@ if [[ -z "$1" ]]; then
 fi
 
 SCRIPT_NAME=$1
-echo "$1 $2 $3 $4 $5 $6 $7"
 
 # Execute the script in the conda environment
 echo "Running $SCRIPT_NAME in conda env $ENV_NAME"
@@ -53,5 +46,4 @@ ${CONDA} run -n ${ENV_NAME} bash -c "
   echo \$HOSTNAME
   which python
   python -m pip list
-  python $1 $2 $3 $4 $5 $6 $7
-"
+  python $1 "
