@@ -3,12 +3,9 @@
 
 # ### Drag-Based Manipulation Demo
 
-# In[1]:
-
-
 import gc
 import json
-print("hevv test before mediapy")
+
 import mediapy
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyArrowPatch
@@ -21,23 +18,15 @@ import torch
 from readout_guidance import rg_helpers
 from script_drag import open_points, create_frames, viz_tracks, run_ddim_inversion
 
-print("after importing libraries")
-
 # **Load the Stable Diffusion Pipeline and Readout Heads**
 # 
 # The demo is pre-loaded to operate on real images (`configs/drag_real.yaml`), which uses the SDv1-5 appearance and correspondence heads. To switch to generated images and the SDXL readout heads, simply switch the path to `configs/drag_generated.yaml`.
-
-# In[2]:
 
 
 device = "cuda"
 # config_path = "configs/drag_generated.yaml"
 config_path = "configs/drag_real.yaml"
 config = OmegaConf.load(config_path)
-
-
-# In[3]:
-
 
 # Load pipeline
 pipeline, dtype = rg_helpers.load_pipeline(config, device)
@@ -234,7 +223,8 @@ predicted_frames = create_frames(
     tracks,
     visibles,
     num_frames,
-    first_frame
+    first_frame,
+    save_folder
 )
 
 
@@ -255,5 +245,12 @@ frames = np.stack([predicted_frames[0], tracks_frame] + predicted_frames)
 video = mediapy.resize_video(frames, viz_dim)
 mediapy.show_video(video, fps=config["fps"], codec="gif")
 plt.clf()
-display(rg_helpers.view_images(frames[1:]))
+# Save video as GIF
+mediapy.write_video(f"{save_folder}/output.gif", video, fps=config["fps"], codec="gif")
+
+# Save individual frames as images (optional)
+for i, frame in enumerate(frames):
+    Image.fromarray(frame).save(f"{save_folder}/frame_{i}.png")
+
+#display(rg_helpers.view_images(frames[1:]))
 

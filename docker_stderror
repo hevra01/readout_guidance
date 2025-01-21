@@ -12,62 +12,61 @@ ec38becd2e00: Pulling fs layer
 6edddfec575a: Pulling fs layer
 0d1c28f609f7: Pulling fs layer
 69ab4343c1ed: Pulling fs layer
-c3ae6280fca3: Waiting
-8da36c68c047: Waiting
-48f62bb746ef: Waiting
 f109e165718a: Pulling fs layer
-ec38becd2e00: Waiting
-4ff940e06896: Waiting
 321e1272cee4: Pulling fs layer
-402547329f82: Waiting
-6edddfec575a: Waiting
-0d1c28f609f7: Waiting
 ddf583c74514: Pulling fs layer
 3a03d24c0f00: Pulling fs layer
-321e1272cee4: Waiting
+48f62bb746ef: Waiting
+4ff940e06896: Waiting
+6edddfec575a: Waiting
+0d1c28f609f7: Waiting
+69ab4343c1ed: Waiting
+402547329f82: Waiting
+c3ae6280fca3: Waiting
 f109e165718a: Waiting
 ddf583c74514: Waiting
+ec38becd2e00: Waiting
+321e1272cee4: Waiting
 3a03d24c0f00: Waiting
+8da36c68c047: Waiting
 c47d20236835: Verifying Checksum
 c47d20236835: Download complete
 f0412dfb1aae: Verifying Checksum
 f0412dfb1aae: Download complete
+c3ae6280fca3: Verifying Checksum
 c3ae6280fca3: Download complete
 1b69bdafde25: Verifying Checksum
 1b69bdafde25: Download complete
 8da36c68c047: Verifying Checksum
 8da36c68c047: Download complete
-402547329f82: Verifying Checksum
 402547329f82: Download complete
+48f62bb746ef: Verifying Checksum
 48f62bb746ef: Download complete
-4ff940e06896: Verifying Checksum
 4ff940e06896: Download complete
 f0412dfb1aae: Pull complete
-c47d20236835: Pull complete
-0d1c28f609f7: Verifying Checksum
 0d1c28f609f7: Download complete
+c47d20236835: Pull complete
 1b69bdafde25: Pull complete
 c3ae6280fca3: Pull complete
 8da36c68c047: Pull complete
 ec38becd2e00: Verifying Checksum
 ec38becd2e00: Download complete
-f109e165718a: Verifying Checksum
 f109e165718a: Download complete
-ec38becd2e00: Pull complete
-402547329f82: Pull complete
-48f62bb746ef: Pull complete
-4ff940e06896: Pull complete
 69ab4343c1ed: Verifying Checksum
 69ab4343c1ed: Download complete
 ddf583c74514: Verifying Checksum
 ddf583c74514: Download complete
 3a03d24c0f00: Download complete
+ec38becd2e00: Pull complete
+402547329f82: Pull complete
+48f62bb746ef: Pull complete
+4ff940e06896: Pull complete
 6edddfec575a: Verifying Checksum
 6edddfec575a: Download complete
-6edddfec575a: Pull complete
-0d1c28f609f7: Pull complete
 321e1272cee4: Verifying Checksum
 321e1272cee4: Download complete
+6edddfec575a: Pull complete
+0d1c28f609f7: Pull complete
 69ab4343c1ed: Pull complete
 f109e165718a: Pull complete
 321e1272cee4: Pull complete

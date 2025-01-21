@@ -18,7 +18,7 @@
 # SDv1-5: runwayml/stable-diffusion-v1-5
 # ====================================================
 model_path: runwayml/stable-diffusion-v1-5
-batch_size: 1
+batch_size: 2
 seed: 100
 num_frames: 2
 fps: 1

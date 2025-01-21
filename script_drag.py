@@ -135,7 +135,8 @@ def create_frames(
     tracks, 
     visibles,
     num_frames,
-    first_frame
+    first_frame,
+    output_dir
 ):
     num_frames = min(num_frames, tracks.shape[0])
     predicted_frames = []
@@ -157,7 +158,13 @@ def create_frames(
         )
         if len(predicted_frames) == 0:
             predicted_frames.append(images[0])
+
+            # Save the first frame (without guidance)
+            images[0].save(os.path.join(output_dir, f"without_guidance.png"))
         predicted_frames.append(images[1])
+
+        # Save the guided frame
+        images[1].save(os.path.join(output_dir, f"with_guidance.png"))
     return predicted_frames
 
 def run_ddim_inversion(config, pipeline, first_frame, prompt, image_dim, dtype, batch_size):
