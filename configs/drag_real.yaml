@@ -26,12 +26,12 @@ rg_kwargs:
   - head_type: appearance
     loss_rescale: 1.0
     aggregation_kwargs:
-      aggregation_ckpt: /home/hepe00001/Desktop/neuro_explicit/generative_diffusion/readout_guidance/readout_guidance/weights/readout_sdv15_drag_appearance.pt
+      aggregation_ckpt: /home/hepe00001/readout_guidance/readout_guidance/weights/readout_sdv15_drag_appearance.pt
   - head_type: correspondence
     loss_rescale: 1.0
     use_emb: False
     aggregation_kwargs:
-      aggregation_ckpt: /home/hepe00001/Desktop/neuro_explicit/generative_diffusion/readout_guidance/readout_guidance/weights/readout_sdv15_drag_correspondence.pt
+      aggregation_ckpt: /home/hepe00001/readout_guidance/readout_guidance/weights/readout_sdv15_drag_correspondence.pt
 generation_kwargs:
   text_weight: [1.0, 3.5]
   rg_weight: 2e-2

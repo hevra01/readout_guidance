@@ -46,4 +46,5 @@ ${CONDA} run -n ${ENV_NAME} bash -c "
   echo \$HOSTNAME
   which python
   python -m pip list
-  python $1 "
+  python $1 
+  "

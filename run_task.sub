@@ -1,6 +1,6 @@
 universe = docker
 docker_image = pytorch/pytorch:2.1.0-cuda12.1-cudnn8-devel
-executable = ./download_weights.sh
+executable = run_task.sh
 arguments = /home/hepe00001/readout_guidance/demo_drag.py
 environment = PROJECT_ROOT=$ENV(PWD)
 initialdir  = $ENV(PWD)

@@ -1,10 +1,4 @@
-/raid/condor/lib/condor/execute/dir_3656451/download_weights.sh: line 35: wget: command not found
-/raid/condor/lib/condor/execute/dir_3656451/download_weights.sh: line 35: wget: command not found
-/raid/condor/lib/condor/execute/dir_3656451/download_weights.sh: line 35: wget: command not found
-/raid/condor/lib/condor/execute/dir_3656451/download_weights.sh: line 35: wget: command not found
-/raid/condor/lib/condor/execute/dir_3656451/download_weights.sh: line 35: wget: command not found
-/raid/condor/lib/condor/execute/dir_3656451/download_weights.sh: line 35: wget: command not found
-/raid/condor/lib/condor/execute/dir_3656451/download_weights.sh: line 35: wget: command not found
-/raid/condor/lib/condor/execute/dir_3656451/download_weights.sh: line 35: wget: command not found
-/raid/condor/lib/condor/execute/dir_3656451/download_weights.sh: line 35: wget: command not found
-/raid/condor/lib/condor/execute/dir_3656451/download_weights.sh: line 35: wget: command not found
+Traceback (most recent call last):
+  File "/raid/condor/lib/condor/execute/dir_3372057/demo_drag.py", line 13, in <module>
+    import matplotlib.pyplot as plt
+ModuleNotFoundError: No module named 'matplotlib'

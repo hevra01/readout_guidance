@@ -1,7 +1,5 @@
 #!/bin/bash
 
-<<<<<<< HEAD
-
 # Activate the Conda environment
 CONDA_ROOT=$HOME/miniconda3
 CONDA=${CONDA_ROOT}/bin/conda
@@ -21,12 +19,8 @@ fi
 
 echo "Installing GLib in the Conda environment: $ENV_NAME"
 ${CONDA} run -n ${ENV_NAME} bash -c "
-conda config --add channels defaults
 
-conda install -c conda-forge xorg-libxau
-
-
-
+conda list 
 "
 echo "numpy installation completed."
 

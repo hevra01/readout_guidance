@@ -1422,3 +1422,602 @@
 
 	Job terminated of its own accord at 2025-01-20T13:02:53Z with exit-code 127.
 ...
+000 (70602.000.000) 2025-01-20 14:32:14 Job submitted from host: <134.96.227.100:9618?addrs=134.96.227.100-9618&alias=conduit.hpc.uni-saarland.de&noUDP&sock=schedd_1996766_f879>
+...
+040 (70602.000.000) 2025-01-20 14:32:33 Started transferring input files
+	Transferring to host: <134.96.59.7:9618?addrs=134.96.59.7-9618&alias=freyr.hpc.uni-saarland.de&noUDP&sock=slot1_5_5117_23a9_1114>
+...
+040 (70602.000.000) 2025-01-20 14:32:33 Finished transferring input files
+...
+001 (70602.000.000) 2025-01-20 14:32:34 Job executing on host: <134.96.59.7:9618?addrs=134.96.59.7-9618&alias=freyr.hpc.uni-saarland.de&noUDP&sock=startd_3959_1f88>
+	SlotName: slot1_5@freyr.hpc.uni-saarland.de
+	AvailableGPUs = { GPUs_GPU_a39d482a }
+	CondorScratchDir = "/raid/condor/lib/condor/execute/dir_1064822"
+	Cpus = 4
+	Disk = 12130
+	GPUs = 1
+	GPUs_GPU_a39d482a = [ Id = "GPU-a39d482a"; Capability = 8.0; DeviceName = "NVIDIA A100-PCIE-40GB"; DeviceUuid = "a39d482a-9d36-665b-4e73-cd5f7bdaa9a7"; ECCEnabled = true; DriverVersion = 12.4; DevicePciBusId = "0000:C1:00.0"; GlobalMemoryMb = 40326; MaxSupportedVersion = 12040 ]
+	Memory = 16384
+...
+040 (70602.000.000) 2025-01-20 14:35:31 Started transferring output files
+...
+040 (70602.000.000) 2025-01-20 14:35:32 Finished transferring output files
+...
+005 (70602.000.000) 2025-01-20 14:35:32 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	3090  -  Run Bytes Sent By Job
+	6373  -  Run Bytes Received By Job
+	3090  -  Total Bytes Sent By Job
+	6373  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     0.01        1         4 
+	   Disk (KB)            :    28           7     12130 
+	   GPUs                 :     0           1         1 "GPU-a39d482a"
+	   GpusMemory (MB)      :   638                       
+	   Memory (MB)          :             16384     16384 
+	   TimeExecute (s)      :   177                       
+	   TimeSlotBusy (s)     :   180                       
+
+	Job terminated of its own accord at 2025-01-20T13:35:31Z with exit-code 1.
+...
+000 (70610.000.000) 2025-01-20 14:41:30 Job submitted from host: <134.96.227.100:9618?addrs=134.96.227.100-9618&alias=conduit.hpc.uni-saarland.de&noUDP&sock=schedd_1996766_f879>
+...
+000 (70611.000.000) 2025-01-20 14:41:32 Job submitted from host: <134.96.227.100:9618?addrs=134.96.227.100-9618&alias=conduit.hpc.uni-saarland.de&noUDP&sock=schedd_1996766_f879>
+...
+000 (70612.000.000) 2025-01-20 14:41:38 Job submitted from host: <134.96.227.100:9618?addrs=134.96.227.100-9618&alias=conduit.hpc.uni-saarland.de&noUDP&sock=schedd_1996766_f879>
+...
+040 (70610.000.000) 2025-01-20 14:41:41 Started transferring input files
+	Transferring to host: <134.96.59.9:9618?addrs=134.96.59.9-9618&alias=gerda.hpc.uni-saarland.de&noUDP&sock=slot1_3_4304_4ea8_498>
+...
+040 (70610.000.000) 2025-01-20 14:41:41 Finished transferring input files
+...
+040 (70611.000.000) 2025-01-20 14:41:41 Started transferring input files
+	Transferring to host: <134.96.59.7:9618?addrs=134.96.59.7-9618&alias=freyr.hpc.uni-saarland.de&noUDP&sock=slot1_5_5117_23a9_1115>
+...
+040 (70611.000.000) 2025-01-20 14:41:41 Finished transferring input files
+...
+040 (70612.000.000) 2025-01-20 14:41:41 Started transferring input files
+	Transferring to host: <134.96.59.3:9618?addrs=134.96.59.3-9618&alias=balder.hpc.uni-saarland.de&noUDP&sock=slot1_7_6033_8b4e_393>
+...
+040 (70612.000.000) 2025-01-20 14:41:41 Finished transferring input files
+...
+001 (70610.000.000) 2025-01-20 14:41:42 Job executing on host: <134.96.59.9:9618?addrs=134.96.59.9-9618&alias=gerda.hpc.uni-saarland.de&noUDP&sock=startd_3978_27d5>
+	SlotName: slot1_3@gerda.hpc.uni-saarland.de
+	AvailableGPUs = { GPUs_GPU_192149e5 }
+	CondorScratchDir = "/raid/condor/lib/condor/execute/dir_3712452"
+	Cpus = 4
+	Disk = 11564
+	GPUs = 1
+	GPUs_GPU_192149e5 = [ Id = "GPU-192149e5"; Capability = 8.0; DeviceName = "NVIDIA A100-PCIE-40GB"; DeviceUuid = "192149e5-f2d4-074e-fc2e-2d7749ccd917"; ECCEnabled = true; DriverVersion = 12.4; DevicePciBusId = "0000:81:00.0"; GlobalMemoryMb = 40326; MaxSupportedVersion = 12040 ]
+	Memory = 16384
+...
+001 (70611.000.000) 2025-01-20 14:41:42 Job executing on host: <134.96.59.7:9618?addrs=134.96.59.7-9618&alias=freyr.hpc.uni-saarland.de&noUDP&sock=startd_3959_1f88>
+	SlotName: slot1_5@freyr.hpc.uni-saarland.de
+	AvailableGPUs = { GPUs_GPU_a39d482a }
+	CondorScratchDir = "/raid/condor/lib/condor/execute/dir_1081299"
+	Cpus = 4
+	Disk = 12130
+	GPUs = 1
+	GPUs_GPU_a39d482a = [ Id = "GPU-a39d482a"; Capability = 8.0; DeviceName = "NVIDIA A100-PCIE-40GB"; DeviceUuid = "a39d482a-9d36-665b-4e73-cd5f7bdaa9a7"; ECCEnabled = true; DriverVersion = 12.4; DevicePciBusId = "0000:C1:00.0"; GlobalMemoryMb = 40326; MaxSupportedVersion = 12040 ]
+	Memory = 16384
+...
+001 (70612.000.000) 2025-01-20 14:41:42 Job executing on host: <134.96.59.3:9618?addrs=134.96.59.3-9618&alias=balder.hpc.uni-saarland.de&noUDP&sock=startd_5377_c0d4>
+	SlotName: slot1_7@balder.hpc.uni-saarland.de
+	AvailableGPUs = { GPUs_GPU_8b85ca78 }
+	CondorScratchDir = "/raid/condor/lib/condor/execute/dir_3150091"
+	Cpus = 4
+	Disk = 6441
+	GPUs = 1
+	GPUs_GPU_8b85ca78 = [ Id = "GPU-8b85ca78"; Capability = 8.0; DeviceName = "NVIDIA A100-SXM4-80GB"; DeviceUuid = "8b85ca78-8fa2-f072-b408-76fb78b5aae8"; ECCEnabled = true; DriverVersion = 12.4; DevicePciBusId = "0000:4D:00.0"; GlobalMemoryMb = 81038; MaxSupportedVersion = 12040 ]
+	Memory = 16384
+...
+040 (70611.000.000) 2025-01-20 14:41:44 Started transferring output files
+...
+040 (70611.000.000) 2025-01-20 14:41:44 Finished transferring output files
+...
+005 (70611.000.000) 2025-01-20 14:41:44 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	737  -  Run Bytes Sent By Job
+	6373  -  Run Bytes Received By Job
+	737  -  Total Bytes Sent By Job
+	6373  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1         4 
+	   Disk (KB)            :       26        7     12130 
+	   GPUs                 :        0        1         1 "GPU-a39d482a"
+	   GpusMemory (MB)      :      638                    
+	   Memory (MB)          :             16384     16384 
+	   TimeExecute (s)      :        2                    
+	   TimeSlotBusy (s)     :        4                    
+
+	Job terminated of its own accord at 2025-01-20T13:41:44Z with exit-code 1.
+...
+040 (70610.000.000) 2025-01-20 14:41:45 Started transferring output files
+...
+040 (70610.000.000) 2025-01-20 14:41:45 Finished transferring output files
+...
+005 (70610.000.000) 2025-01-20 14:41:45 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	737  -  Run Bytes Sent By Job
+	6373  -  Run Bytes Received By Job
+	737  -  Total Bytes Sent By Job
+	6373  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1         4 
+	   Disk (KB)            :       26        7     11564 
+	   GPUs                 :                 1         1 "GPU-192149e5"
+	   Memory (MB)          :             16384     16384 
+	   TimeExecute (s)      :        3                    
+	   TimeSlotBusy (s)     :        5                    
+
+	Job terminated of its own accord at 2025-01-20T13:41:45Z with exit-code 1.
+...
+040 (70612.000.000) 2025-01-20 14:44:25 Started transferring output files
+...
+040 (70612.000.000) 2025-01-20 14:44:25 Finished transferring output files
+...
+005 (70612.000.000) 2025-01-20 14:44:25 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	3094  -  Run Bytes Sent By Job
+	6373  -  Run Bytes Received By Job
+	3094  -  Total Bytes Sent By Job
+	6373  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1         4 
+	   Disk (KB)            :       28        7      6441 
+	   GPUs                 :        0        1         1 "GPU-8b85ca78"
+	   GpusMemory (MB)      :      886                    
+	   Memory (MB)          :             16384     16384 
+	   TimeExecute (s)      :      162                    
+	   TimeSlotBusy (s)     :      165                    
+
+	Job terminated of its own accord at 2025-01-20T13:44:24Z with exit-code 1.
+...
+000 (70618.000.000) 2025-01-20 14:49:47 Job submitted from host: <134.96.227.100:9618?addrs=134.96.227.100-9618&alias=conduit.hpc.uni-saarland.de&noUDP&sock=schedd_1996766_f879>
+...
+040 (70618.000.000) 2025-01-20 14:49:48 Started transferring input files
+	Transferring to host: <134.96.59.7:9618?addrs=134.96.59.7-9618&alias=freyr.hpc.uni-saarland.de&noUDP&sock=slot1_5_5117_23a9_1117>
+...
+040 (70618.000.000) 2025-01-20 14:49:48 Finished transferring input files
+...
+001 (70618.000.000) 2025-01-20 14:49:49 Job executing on host: <134.96.59.7:9618?addrs=134.96.59.7-9618&alias=freyr.hpc.uni-saarland.de&noUDP&sock=startd_3959_1f88>
+	SlotName: slot1_5@freyr.hpc.uni-saarland.de
+	AvailableGPUs = { GPUs_GPU_a39d482a }
+	CondorScratchDir = "/raid/condor/lib/condor/execute/dir_1097754"
+	Cpus = 4
+	Disk = 12130
+	GPUs = 1
+	GPUs_GPU_a39d482a = [ Id = "GPU-a39d482a"; Capability = 8.0; DeviceName = "NVIDIA A100-PCIE-40GB"; DeviceUuid = "a39d482a-9d36-665b-4e73-cd5f7bdaa9a7"; ECCEnabled = true; DriverVersion = 12.4; DevicePciBusId = "0000:C1:00.0"; GlobalMemoryMb = 40326; MaxSupportedVersion = 12040 ]
+	Memory = 16384
+...
+040 (70618.000.000) 2025-01-20 14:49:52 Started transferring output files
+...
+040 (70618.000.000) 2025-01-20 14:49:52 Finished transferring output files
+...
+005 (70618.000.000) 2025-01-20 14:49:52 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	737  -  Run Bytes Sent By Job
+	6373  -  Run Bytes Received By Job
+	737  -  Total Bytes Sent By Job
+	6373  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     0.08        1         4 
+	   Disk (KB)            :    26           7     12130 
+	   GPUs                 :                 1         1 "GPU-a39d482a"
+	   Memory (MB)          :             16384     16384 
+	   TimeExecute (s)      :     3                       
+	   TimeSlotBusy (s)     :     5                       
+
+	Job terminated of its own accord at 2025-01-20T13:49:52Z with exit-code 1.
+...
+000 (70620.000.000) 2025-01-20 14:51:08 Job submitted from host: <134.96.227.100:9618?addrs=134.96.227.100-9618&alias=conduit.hpc.uni-saarland.de&noUDP&sock=schedd_1996766_f879>
+...
+040 (70620.000.000) 2025-01-20 14:51:09 Started transferring input files
+	Transferring to host: <134.96.59.7:9618?addrs=134.96.59.7-9618&alias=freyr.hpc.uni-saarland.de&noUDP&sock=slot1_5_5117_23a9_1119>
+...
+040 (70620.000.000) 2025-01-20 14:51:09 Finished transferring input files
+...
+001 (70620.000.000) 2025-01-20 14:51:10 Job executing on host: <134.96.59.7:9618?addrs=134.96.59.7-9618&alias=freyr.hpc.uni-saarland.de&noUDP&sock=startd_3959_1f88>
+	SlotName: slot1_5@freyr.hpc.uni-saarland.de
+	AvailableGPUs = { GPUs_GPU_a39d482a }
+	CondorScratchDir = "/raid/condor/lib/condor/execute/dir_1102896"
+	Cpus = 4
+	Disk = 12130
+	GPUs = 1
+	GPUs_GPU_a39d482a = [ Id = "GPU-a39d482a"; Capability = 8.0; DeviceName = "NVIDIA A100-PCIE-40GB"; DeviceUuid = "a39d482a-9d36-665b-4e73-cd5f7bdaa9a7"; ECCEnabled = true; DriverVersion = 12.4; DevicePciBusId = "0000:C1:00.0"; GlobalMemoryMb = 40326; MaxSupportedVersion = 12040 ]
+	Memory = 16384
+...
+040 (70620.000.000) 2025-01-20 14:51:12 Started transferring output files
+...
+040 (70620.000.000) 2025-01-20 14:51:12 Finished transferring output files
+...
+005 (70620.000.000) 2025-01-20 14:51:12 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	737  -  Run Bytes Sent By Job
+	6373  -  Run Bytes Received By Job
+	737  -  Total Bytes Sent By Job
+	6373  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1         4 
+	   Disk (KB)            :       26        7     12130 
+	   GPUs                 :                 1         1 "GPU-a39d482a"
+	   Memory (MB)          :             16384     16384 
+	   TimeExecute (s)      :        1                    
+	   TimeSlotBusy (s)     :        4                    
+
+	Job terminated of its own accord at 2025-01-20T13:51:11Z with exit-code 1.
+...
+000 (70621.000.000) 2025-01-20 14:51:27 Job submitted from host: <134.96.227.100:9618?addrs=134.96.227.100-9618&alias=conduit.hpc.uni-saarland.de&noUDP&sock=schedd_1996766_f879>
+...
+040 (70621.000.000) 2025-01-20 14:51:29 Started transferring input files
+	Transferring to host: <134.96.59.7:9618?addrs=134.96.59.7-9618&alias=freyr.hpc.uni-saarland.de&noUDP&sock=slot1_5_5117_23a9_1120>
+...
+040 (70621.000.000) 2025-01-20 14:51:29 Finished transferring input files
+...
+001 (70621.000.000) 2025-01-20 14:51:30 Job executing on host: <134.96.59.7:9618?addrs=134.96.59.7-9618&alias=freyr.hpc.uni-saarland.de&noUDP&sock=startd_3959_1f88>
+	SlotName: slot1_5@freyr.hpc.uni-saarland.de
+	AvailableGPUs = { GPUs_GPU_a39d482a }
+	CondorScratchDir = "/raid/condor/lib/condor/execute/dir_1103873"
+	Cpus = 4
+	Disk = 12130
+	GPUs = 1
+	GPUs_GPU_a39d482a = [ Id = "GPU-a39d482a"; Capability = 8.0; DeviceName = "NVIDIA A100-PCIE-40GB"; DeviceUuid = "a39d482a-9d36-665b-4e73-cd5f7bdaa9a7"; ECCEnabled = true; DriverVersion = 12.4; DevicePciBusId = "0000:C1:00.0"; GlobalMemoryMb = 40326; MaxSupportedVersion = 12040 ]
+	Memory = 16384
+...
+040 (70621.000.000) 2025-01-20 14:51:32 Started transferring output files
+...
+040 (70621.000.000) 2025-01-20 14:51:32 Finished transferring output files
+...
+005 (70621.000.000) 2025-01-20 14:51:32 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	737  -  Run Bytes Sent By Job
+	6373  -  Run Bytes Received By Job
+	737  -  Total Bytes Sent By Job
+	6373  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1         4 
+	   Disk (KB)            :       26        7     12130 
+	   GPUs                 :                 1         1 "GPU-a39d482a"
+	   Memory (MB)          :             16384     16384 
+	   TimeExecute (s)      :        2                    
+	   TimeSlotBusy (s)     :        3                    
+
+	Job terminated of its own accord at 2025-01-20T13:51:32Z with exit-code 1.
+...
+000 (70622.000.000) 2025-01-20 14:52:27 Job submitted from host: <134.96.227.100:9618?addrs=134.96.227.100-9618&alias=conduit.hpc.uni-saarland.de&noUDP&sock=schedd_1996766_f879>
+...
+040 (70622.000.000) 2025-01-20 14:52:28 Started transferring input files
+	Transferring to host: <134.96.59.7:9618?addrs=134.96.59.7-9618&alias=freyr.hpc.uni-saarland.de&noUDP&sock=slot1_5_5117_23a9_1121>
+...
+040 (70622.000.000) 2025-01-20 14:52:28 Finished transferring input files
+...
+001 (70622.000.000) 2025-01-20 14:52:29 Job executing on host: <134.96.59.7:9618?addrs=134.96.59.7-9618&alias=freyr.hpc.uni-saarland.de&noUDP&sock=startd_3959_1f88>
+	SlotName: slot1_5@freyr.hpc.uni-saarland.de
+	AvailableGPUs = { GPUs_GPU_a39d482a }
+	CondorScratchDir = "/raid/condor/lib/condor/execute/dir_1105615"
+	Cpus = 4
+	Disk = 12130
+	GPUs = 1
+	GPUs_GPU_a39d482a = [ Id = "GPU-a39d482a"; Capability = 8.0; DeviceName = "NVIDIA A100-PCIE-40GB"; DeviceUuid = "a39d482a-9d36-665b-4e73-cd5f7bdaa9a7"; ECCEnabled = true; DriverVersion = 12.4; DevicePciBusId = "0000:C1:00.0"; GlobalMemoryMb = 40326; MaxSupportedVersion = 12040 ]
+	Memory = 16384
+...
+040 (70622.000.000) 2025-01-20 14:52:31 Started transferring output files
+...
+040 (70622.000.000) 2025-01-20 14:52:31 Finished transferring output files
+...
+005 (70622.000.000) 2025-01-20 14:52:31 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	737  -  Run Bytes Sent By Job
+	6373  -  Run Bytes Received By Job
+	737  -  Total Bytes Sent By Job
+	6373  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1         4 
+	   Disk (KB)            :       26        7     12130 
+	   GPUs                 :                 1         1 "GPU-a39d482a"
+	   Memory (MB)          :             16384     16384 
+	   TimeExecute (s)      :        2                    
+	   TimeSlotBusy (s)     :        4                    
+
+	Job terminated of its own accord at 2025-01-20T13:52:31Z with exit-code 1.
+...
+000 (70624.000.000) 2025-01-20 14:54:24 Job submitted from host: <134.96.227.100:9618?addrs=134.96.227.100-9618&alias=conduit.hpc.uni-saarland.de&noUDP&sock=schedd_1996766_f879>
+...
+040 (70624.000.000) 2025-01-20 14:54:42 Started transferring input files
+	Transferring to host: <134.96.59.7:9618?addrs=134.96.59.7-9618&alias=freyr.hpc.uni-saarland.de&noUDP&sock=slot1_5_5117_23a9_1123>
+...
+040 (70624.000.000) 2025-01-20 14:54:42 Finished transferring input files
+...
+001 (70624.000.000) 2025-01-20 14:54:43 Job executing on host: <134.96.59.7:9618?addrs=134.96.59.7-9618&alias=freyr.hpc.uni-saarland.de&noUDP&sock=startd_3959_1f88>
+	SlotName: slot1_5@freyr.hpc.uni-saarland.de
+	AvailableGPUs = { GPUs_GPU_a39d482a }
+	CondorScratchDir = "/raid/condor/lib/condor/execute/dir_1111417"
+	Cpus = 4
+	Disk = 12130
+	GPUs = 1
+	GPUs_GPU_a39d482a = [ Id = "GPU-a39d482a"; Capability = 8.0; DeviceName = "NVIDIA A100-PCIE-40GB"; DeviceUuid = "a39d482a-9d36-665b-4e73-cd5f7bdaa9a7"; ECCEnabled = true; DriverVersion = 12.4; DevicePciBusId = "0000:C1:00.0"; GlobalMemoryMb = 40326; MaxSupportedVersion = 12040 ]
+	Memory = 16384
+...
+040 (70624.000.000) 2025-01-20 14:54:45 Started transferring output files
+...
+040 (70624.000.000) 2025-01-20 14:54:45 Finished transferring output files
+...
+005 (70624.000.000) 2025-01-20 14:54:45 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	737  -  Run Bytes Sent By Job
+	6373  -  Run Bytes Received By Job
+	737  -  Total Bytes Sent By Job
+	6373  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1         4 
+	   Disk (KB)            :       26        7     12130 
+	   GPUs                 :                 1         1 "GPU-a39d482a"
+	   Memory (MB)          :             16384     16384 
+	   TimeExecute (s)      :        2                    
+	   TimeSlotBusy (s)     :        3                    
+
+	Job terminated of its own accord at 2025-01-20T13:54:45Z with exit-code 1.
+...
+000 (70626.000.000) 2025-01-20 14:58:05 Job submitted from host: <134.96.227.100:9618?addrs=134.96.227.100-9618&alias=conduit.hpc.uni-saarland.de&noUDP&sock=schedd_1996766_f879>
+...
+040 (70626.000.000) 2025-01-20 14:58:21 Started transferring input files
+	Transferring to host: <134.96.59.9:9618?addrs=134.96.59.9-9618&alias=gerda.hpc.uni-saarland.de&noUDP&sock=slot1_3_4304_4ea8_500>
+...
+040 (70626.000.000) 2025-01-20 14:58:21 Finished transferring input files
+...
+001 (70626.000.000) 2025-01-20 14:58:22 Job executing on host: <134.96.59.9:9618?addrs=134.96.59.9-9618&alias=gerda.hpc.uni-saarland.de&noUDP&sock=startd_3978_27d5>
+	SlotName: slot1_3@gerda.hpc.uni-saarland.de
+	AvailableGPUs = { GPUs_GPU_192149e5 }
+	CondorScratchDir = "/raid/condor/lib/condor/execute/dir_4159795"
+	Cpus = 4
+	Disk = 11564
+	GPUs = 1
+	GPUs_GPU_192149e5 = [ Id = "GPU-192149e5"; Capability = 8.0; DeviceName = "NVIDIA A100-PCIE-40GB"; DeviceUuid = "192149e5-f2d4-074e-fc2e-2d7749ccd917"; ECCEnabled = true; DriverVersion = 12.4; DevicePciBusId = "0000:81:00.0"; GlobalMemoryMb = 40326; MaxSupportedVersion = 12040 ]
+	Memory = 16384
+...
+040 (70626.000.000) 2025-01-20 14:58:25 Started transferring output files
+...
+040 (70626.000.000) 2025-01-20 14:58:25 Finished transferring output files
+...
+005 (70626.000.000) 2025-01-20 14:58:25 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	757  -  Run Bytes Sent By Job
+	6377  -  Run Bytes Received By Job
+	757  -  Total Bytes Sent By Job
+	6377  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1         4 
+	   Disk (KB)            :       27        7     11564 
+	   GPUs                 :                 1         1 "GPU-192149e5"
+	   Memory (MB)          :             16384     16384 
+	   TimeExecute (s)      :        3                    
+	   TimeSlotBusy (s)     :        5                    
+
+	Job terminated of its own accord at 2025-01-20T13:58:25Z with exit-code 1.
+...
+000 (70628.000.000) 2025-01-20 15:05:34 Job submitted from host: <134.96.227.100:9618?addrs=134.96.227.100-9618&alias=conduit.hpc.uni-saarland.de&noUDP&sock=schedd_1996766_f879>
+...
+040 (70628.000.000) 2025-01-20 15:05:34 Started transferring input files
+	Transferring to host: <134.96.59.13:9618?addrs=134.96.59.13-9618&alias=surt.hpc.uni-saarland.de&noUDP&sock=slot1_6_4625_7b15_519>
+...
+040 (70628.000.000) 2025-01-20 15:05:34 Finished transferring input files
+...
+001 (70628.000.000) 2025-01-20 15:05:35 Job executing on host: <134.96.59.13:9618?addrs=134.96.59.13-9618&alias=surt.hpc.uni-saarland.de&noUDP&sock=startd_4311_90de>
+	SlotName: slot1_6@surt.hpc.uni-saarland.de
+	AvailableGPUs = { GPUs_GPU_86d913ad }
+	CondorScratchDir = "/raid/condor/lib/condor/execute/dir_1374363"
+	Cpus = 4
+	Disk = 12125
+	GPUs = 1
+	GPUs_GPU_86d913ad = [ Id = "GPU-86d913ad"; Capability = 8.0; DeviceName = "NVIDIA A100-PCIE-40GB"; DeviceUuid = "86d913ad-12f9-ae8d-4118-75d37e3b438b"; ECCEnabled = true; DriverVersion = 12.4; DevicePciBusId = "0000:81:00.0"; GlobalMemoryMb = 40326; MaxSupportedVersion = 12040 ]
+	Memory = 16384
+...
+040 (70628.000.000) 2025-01-20 15:05:37 Started transferring output files
+...
+040 (70628.000.000) 2025-01-20 15:05:37 Finished transferring output files
+...
+005 (70628.000.000) 2025-01-20 15:05:38 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	757  -  Run Bytes Sent By Job
+	6377  -  Run Bytes Received By Job
+	757  -  Total Bytes Sent By Job
+	6377  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1         4 
+	   Disk (KB)            :       26        7     12125 
+	   GPUs                 :                 1         1 "GPU-86d913ad"
+	   Memory (MB)          :             16384     16384 
+	   TimeExecute (s)      :        2                    
+	   TimeSlotBusy (s)     :        3                    
+
+	Job terminated of its own accord at 2025-01-20T14:05:37Z with exit-code 1.
+...
+000 (70630.000.000) 2025-01-20 15:12:48 Job submitted from host: <134.96.227.100:9618?addrs=134.96.227.100-9618&alias=conduit.hpc.uni-saarland.de&noUDP&sock=schedd_1996766_f879>
+...
+040 (70630.000.000) 2025-01-20 15:13:03 Started transferring input files
+	Transferring to host: <134.96.59.9:9618?addrs=134.96.59.9-9618&alias=gerda.hpc.uni-saarland.de&noUDP&sock=slot1_3_4304_4ea8_502>
+...
+040 (70630.000.000) 2025-01-20 15:13:03 Finished transferring input files
+...
+001 (70630.000.000) 2025-01-20 15:13:04 Job executing on host: <134.96.59.9:9618?addrs=134.96.59.9-9618&alias=gerda.hpc.uni-saarland.de&noUDP&sock=startd_3978_27d5>
+	SlotName: slot1_3@gerda.hpc.uni-saarland.de
+	AvailableGPUs = { GPUs_GPU_192149e5 }
+	CondorScratchDir = "/raid/condor/lib/condor/execute/dir_366434"
+	Cpus = 4
+	Disk = 11564
+	GPUs = 1
+	GPUs_GPU_192149e5 = [ Id = "GPU-192149e5"; Capability = 8.0; DeviceName = "NVIDIA A100-PCIE-40GB"; DeviceUuid = "192149e5-f2d4-074e-fc2e-2d7749ccd917"; ECCEnabled = true; DriverVersion = 12.4; DevicePciBusId = "0000:81:00.0"; GlobalMemoryMb = 40326; MaxSupportedVersion = 12040 ]
+	Memory = 16384
+...
+040 (70630.000.000) 2025-01-20 15:13:09 Started transferring output files
+...
+040 (70630.000.000) 2025-01-20 15:13:09 Finished transferring output files
+...
+005 (70630.000.000) 2025-01-20 15:13:10 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	756  -  Run Bytes Sent By Job
+	6377  -  Run Bytes Received By Job
+	756  -  Total Bytes Sent By Job
+	6377  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1         4 
+	   Disk (KB)            :       26        7     11564 
+	   GPUs                 :                 1         1 "GPU-192149e5"
+	   Memory (MB)          :             16384     16384 
+	   TimeExecute (s)      :        5                    
+	   TimeSlotBusy (s)     :        8                    
+
+	Job terminated of its own accord at 2025-01-20T14:13:09Z with exit-code 1.
+...
+000 (70632.000.000) 2025-01-20 15:30:23 Job submitted from host: <134.96.227.100:9618?addrs=134.96.227.100-9618&alias=conduit.hpc.uni-saarland.de&noUDP&sock=schedd_1996766_f879>
+...
+040 (70632.000.000) 2025-01-20 15:30:34 Started transferring input files
+	Transferring to host: <134.96.59.9:9618?addrs=134.96.59.9-9618&alias=gerda.hpc.uni-saarland.de&noUDP&sock=slot1_6_4304_4ea8_504>
+...
+040 (70632.000.000) 2025-01-20 15:30:34 Finished transferring input files
+...
+001 (70632.000.000) 2025-01-20 15:30:35 Job executing on host: <134.96.59.9:9618?addrs=134.96.59.9-9618&alias=gerda.hpc.uni-saarland.de&noUDP&sock=startd_3978_27d5>
+	SlotName: slot1_6@gerda.hpc.uni-saarland.de
+	AvailableGPUs = { GPUs_GPU_3b20bc30 }
+	CondorScratchDir = "/raid/condor/lib/condor/execute/dir_675988"
+	Cpus = 4
+	Disk = 11564
+	GPUs = 1
+	GPUs_GPU_3b20bc30 = [ Id = "GPU-3b20bc30"; Capability = 8.0; DeviceName = "NVIDIA A100-PCIE-40GB"; DeviceUuid = "3b20bc30-cb5b-7ee7-c6b9-bfa7f8f60a4d"; ECCEnabled = true; DriverVersion = 12.4; DevicePciBusId = "0000:41:00.0"; GlobalMemoryMb = 40326; MaxSupportedVersion = 12040 ]
+	Memory = 16384
+...
+040 (70632.000.000) 2025-01-20 15:30:40 Started transferring output files
+...
+040 (70632.000.000) 2025-01-20 15:30:40 Finished transferring output files
+...
+005 (70632.000.000) 2025-01-20 15:30:41 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	756  -  Run Bytes Sent By Job
+	6377  -  Run Bytes Received By Job
+	756  -  Total Bytes Sent By Job
+	6377  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     0.05        1         4 
+	   Disk (KB)            :    26           7     11564 
+	   GPUs                 :                 1         1 "GPU-3b20bc30"
+	   Memory (MB)          :             16384     16384 
+	   TimeExecute (s)      :     4                       
+	   TimeSlotBusy (s)     :     6                       
+
+	Job terminated of its own accord at 2025-01-20T14:30:39Z with exit-code 1.
+...
+000 (70688.000.000) 2025-01-21 10:34:41 Job submitted from host: <134.96.227.100:9618?addrs=134.96.227.100-9618&alias=conduit.hpc.uni-saarland.de&noUDP&sock=schedd_1996766_f879>
+...
+040 (70688.000.000) 2025-01-21 10:34:54 Started transferring input files
+	Transferring to host: <134.96.59.9:9618?addrs=134.96.59.9-9618&alias=gerda.hpc.uni-saarland.de&noUDP&sock=slot1_1_4304_4ea8_523>
+...
+040 (70688.000.000) 2025-01-21 10:34:54 Finished transferring input files
+...
+001 (70688.000.000) 2025-01-21 10:34:55 Job executing on host: <134.96.59.9:9618?addrs=134.96.59.9-9618&alias=gerda.hpc.uni-saarland.de&noUDP&sock=startd_3978_27d5>
+	SlotName: slot1_1@gerda.hpc.uni-saarland.de
+	AvailableGPUs = { GPUs_GPU_0a169ebb }
+	CondorScratchDir = "/raid/condor/lib/condor/execute/dir_3372057"
+	Cpus = 4
+	Disk = 11564
+	GPUs = 1
+	GPUs_GPU_0a169ebb = [ Id = "GPU-0a169ebb"; Capability = 8.0; DeviceName = "NVIDIA A100-PCIE-40GB"; DeviceUuid = "0a169ebb-aa7d-60ca-40bb-4ecccf842938"; ECCEnabled = true; DriverVersion = 12.4; DevicePciBusId = "0000:E1:00.0"; GlobalMemoryMb = 40326; MaxSupportedVersion = 12040 ]
+	Memory = 16384
+...
+040 (70688.000.000) 2025-01-21 10:38:05 Started transferring output files
+...
+040 (70688.000.000) 2025-01-21 10:38:05 Finished transferring output files
+...
+005 (70688.000.000) 2025-01-21 10:38:05 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	3198  -  Run Bytes Sent By Job
+	6377  -  Run Bytes Received By Job
+	3198  -  Total Bytes Sent By Job
+	6377  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     0.00        1         4 
+	   Disk (KB)            :    29           7     11564 
+	   GPUs                 :     0           1         1 "GPU-0a169ebb"
+	   GpusMemory (MB)      :   638                       
+	   Memory (MB)          :             16384     16384 
+	   TimeExecute (s)      :   189                       
+	   TimeSlotBusy (s)     :   193                       
+
+	Job terminated of its own accord at 2025-01-21T09:38:04Z with exit-code 1.
+...
+000 (70691.000.000) 2025-01-21 10:43:44 Job submitted from host: <134.96.227.100:9618?addrs=134.96.227.100-9618&alias=conduit.hpc.uni-saarland.de&noUDP&sock=schedd_1996766_f879>
+...
+040 (70691.000.000) 2025-01-21 10:43:46 Started transferring input files
+	Transferring to host: <134.96.59.9:9618?addrs=134.96.59.9-9618&alias=gerda.hpc.uni-saarland.de&noUDP&sock=slot1_1_4304_4ea8_524>
+...
+040 (70691.000.000) 2025-01-21 10:43:46 Finished transferring input files
+...
+001 (70691.000.000) 2025-01-21 10:43:47 Job executing on host: <134.96.59.9:9618?addrs=134.96.59.9-9618&alias=gerda.hpc.uni-saarland.de&noUDP&sock=startd_3978_27d5>
+	SlotName: slot1_1@gerda.hpc.uni-saarland.de
+	AvailableGPUs = { GPUs_GPU_0a169ebb }
+	CondorScratchDir = "/raid/condor/lib/condor/execute/dir_3452388"
+	Cpus = 4
+	Disk = 11564
+	GPUs = 1
+	GPUs_GPU_0a169ebb = [ Id = "GPU-0a169ebb"; Capability = 8.0; DeviceName = "NVIDIA A100-PCIE-40GB"; DeviceUuid = "0a169ebb-aa7d-60ca-40bb-4ecccf842938"; ECCEnabled = true; DriverVersion = 12.4; DevicePciBusId = "0000:E1:00.0"; GlobalMemoryMb = 40326; MaxSupportedVersion = 12040 ]
+	Memory = 16384
+...
+006 (70691.000.000) 2025-01-21 10:43:56 Image size of job updated: 47
+	47  -  MemoryUsage of job (MB)
+	48248  -  ResidentSetSize of job (KB)
+...
