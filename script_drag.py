@@ -160,11 +160,13 @@ def create_frames(
             predicted_frames.append(images[0])
 
             # Save the first frame (without guidance)
-            images[0].save(os.path.join(output_dir, f"without_guidance.png"))
+            image_to_save = Image.fromarray(images[0].astype('uint8'))  # Convert NumPy array to PIL Image
+            image_to_save.save(os.path.join(output_dir, f"without_guidance.png"))
         predicted_frames.append(images[1])
 
         # Save the guided frame
-        images[1].save(os.path.join(output_dir, f"with_guidance.png"))
+        image_to_save = Image.fromarray(images[1].astype('uint8'))  # Convert NumPy array to PIL Image
+        image_to_save.save(os.path.join(output_dir, f"with_guidance.png"))
     return predicted_frames
 
 def run_ddim_inversion(config, pipeline, first_frame, prompt, image_dim, dtype, batch_size):

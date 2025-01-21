@@ -19,7 +19,7 @@ CONDA path is set to: /home/hepe00001/miniconda3/bin/conda
 Attempting to run conda from: /home/hepe00001/miniconda3/bin/conda
 conda 24.11.3
 Running /home/hepe00001/readout_guidance/demo_drag.py in conda env readout_new
-Tue Jan 21 13:30:17 2025       
+Tue Jan 21 13:45:39 2025       
 +-----------------------------------------------------------------------------------------+
 | NVIDIA-SMI 550.107.02             Driver Version: 550.107.02     CUDA Version: 12.4     |
 |-----------------------------------------+------------------------+----------------------+
@@ -28,7 +28,7 @@ Tue Jan 21 13:30:17 2025
 |                                         |                        |               MIG M. |
 |=========================================+========================+======================|
 |   0  NVIDIA A100-PCIE-40GB          Off |   00000000:61:00.0 Off |                    0 |
-| N/A   28C    P0             35W /  250W |       4MiB /  40960MiB |      0%      Default |
+| N/A   28C    P0             34W /  250W |       4MiB /  40960MiB |      0%      Default |
 |                                         |                        |             Disabled |
 +-----------------------------------------+------------------------+----------------------+
                                                                                          
@@ -40,7 +40,7 @@ Tue Jan 21 13:30:17 2025
 |  No running processes found                                                             |
 +-----------------------------------------------------------------------------------------+
 GPU-4793f3fd
-hepe00001-70718.0-freyr.hpc.uni-saarland.de
+hepe00001-70720.0-freyr.hpc.uni-saarland.de
 /home/hepe00001/miniconda3/envs/readout_new/bin/python
 Package                   Version
 ------------------------- ------------------
@@ -290,66 +290,71 @@ Using rg_ratio [0.0, 1.0]
 Using num_optimizer_steps [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 [2K
 [2K
-<PIL.Image.Image image mode=RGB size=512x512 at 0x767F79745580>
+<PIL.Image.Image image mode=RGB size=512x512 at 0x742BDFF04A60>
 [2K
 [2K
-<PIL.Image.Image image mode=RGB size=512x512 at 0x767F7A39BEB0>
+<PIL.Image.Image image mode=RGB size=512x512 at 0x742BE4CE2A60>
 [2K
 [2K
-<PIL.Image.Image image mode=RGB size=512x512 at 0x767F7A39BB80>
+<PIL.Image.Image image mode=RGB size=512x512 at 0x742BE4CE2A00>
 [2K
 [2K
-<PIL.Image.Image image mode=RGB size=512x512 at 0x767F7A39BAF0>
+<PIL.Image.Image image mode=RGB size=512x512 at 0x742BE4CE25E0>
 [2K
 [2K
-<PIL.Image.Image image mode=RGB size=512x512 at 0x767F7A39BFA0>
+<PIL.Image.Image image mode=RGB size=512x512 at 0x742BE4CE2AF0>
 [2K
 [2K
-<PIL.Image.Image image mode=RGB size=512x512 at 0x767F7A39BD60>
+<PIL.Image.Image image mode=RGB size=512x512 at 0x742BE4CE2910>
 [2K
 [2K
-<PIL.Image.Image image mode=RGB size=512x512 at 0x767F7A39BA30>
+<PIL.Image.Image image mode=RGB size=512x512 at 0x742BE4CE25B0>
 [2K
 [2K
-<PIL.Image.Image image mode=RGB size=512x512 at 0x767F7A39B310>
+<PIL.Image.Image image mode=RGB size=512x512 at 0x742BE4CE2580>
 [2K
 [2K
-<PIL.Image.Image image mode=RGB size=512x512 at 0x767F7A39BAC0>
+<PIL.Image.Image image mode=RGB size=512x512 at 0x742BE4CE2B50>
 [2K
 [2K
-<PIL.Image.Image image mode=RGB size=512x512 at 0x767F7A39BA90>
+<PIL.Image.Image image mode=RGB size=512x512 at 0x742BE4CE27F0>
 torch.Size([2, 4, 64, 64])
 Using model of type <class 'diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion.StableDiffusionPipeline'>
 Using rg_ratio [0.0, 0.5]
 Using num_optimizer_steps [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 [2K
 [2K
-<PIL.Image.Image image mode=RGB size=1034x512 at 0x767F79745DF0>
+<PIL.Image.Image image mode=RGB size=1034x512 at 0x742BDFF04A60>
 [2K
 [2K
-<PIL.Image.Image image mode=RGB size=1034x512 at 0x767F797458E0>
+<PIL.Image.Image image mode=RGB size=1034x512 at 0x742BDFF04BE0>
 [2K
 [2K
-<PIL.Image.Image image mode=RGB size=1034x512 at 0x767F79745AF0>
+<PIL.Image.Image image mode=RGB size=1034x512 at 0x742BDFF049D0>
 [2K
 [2K
-<PIL.Image.Image image mode=RGB size=1034x512 at 0x767F79745DF0>
+<PIL.Image.Image image mode=RGB size=1034x512 at 0x742BDFF04A60>
 [2K
 [2K
-<PIL.Image.Image image mode=RGB size=1034x512 at 0x767F79745250>
+<PIL.Image.Image image mode=RGB size=1034x512 at 0x742BDFF04E80>
 [2K
 [2K
-<PIL.Image.Image image mode=RGB size=1034x512 at 0x767F79745130>
+<PIL.Image.Image image mode=RGB size=1034x512 at 0x742BDFF04E80>
 [2K
 [2K
-<PIL.Image.Image image mode=RGB size=1034x512 at 0x767F79745670>
+<PIL.Image.Image image mode=RGB size=1034x512 at 0x742BDFF04CD0>
 [2K
 [2K
-<PIL.Image.Image image mode=RGB size=1034x512 at 0x767F79745A00>
+<PIL.Image.Image image mode=RGB size=1034x512 at 0x742BDFF04E20>
 [2K
 [2K
-<PIL.Image.Image image mode=RGB size=1034x512 at 0x767F79745DF0>
+<PIL.Image.Image image mode=RGB size=1034x512 at 0x742BDFF04EB0>
 [2K
 [2K
-<PIL.Image.Image image mode=RGB size=1034x512 at 0x767F79745460>
+<PIL.Image.Image image mode=RGB size=1034x512 at 0x742BDFF04CD0>
+============================================================
+wolf looking around
+============================================================
+
+<IPython.core.display.HTML object>
 
